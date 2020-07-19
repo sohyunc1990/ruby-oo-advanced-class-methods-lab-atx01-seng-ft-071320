@@ -20,6 +20,7 @@ class Song
   def new_by_name(string)
     song = self.new
     song.name = string
+    song
   end
  
 end
