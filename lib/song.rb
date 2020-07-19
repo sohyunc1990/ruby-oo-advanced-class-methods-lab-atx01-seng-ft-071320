@@ -3,7 +3,7 @@ class Song
   attr_accessor :name, :artist_name
   @@all = []
   
-  def self.create
+  def Song.create
     @@all << self
     self
     binding.pry
